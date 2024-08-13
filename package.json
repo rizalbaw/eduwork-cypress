@@ -1,0 +1,20 @@
+{
+  "name": "educy",
+  "version": "1.0.0",
+  "description": "Educy",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  },
+  "devDependencies": {
+    "cypress-localstorage-commands": "^1.2.0",
+    "prettier": "2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:verify": "cypress verify"
+  },
+  "author": "Rizal",
+  "license": "ISC"
+}
